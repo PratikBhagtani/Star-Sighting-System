@@ -27,7 +27,7 @@ class TCurve(object):
         if((tails != 1) & (tails != 2)):
             raise ValueError(functionName + "invalid tails")
         
-        constant = self. calculateConstant(self.n)
+        constant = self.calculateConstant(self.n)
         integration = self.integrate(t, self.n, self.f)
         if(tails == 1):
             result = constant * integration + 0.5
@@ -61,11 +61,37 @@ class TCurve(object):
         result = base ** exponent
         return result
     
-    def integrate(self, t, n, f):
-        pass
-        
-        
+    def f1(self,u,n):
+        return u
+    def f2(self,u,n):
+        return u**2
+    def f3(self,u,n):
+        return u**6
+    def f4(self,u,n):
+        return u**101
     
-        
+    def integrate(self, t, n, f):
+        epsilon = 0.0001
+        simpsonOld = 0
+        simpsonNew = epsilon
+        highBound = t
+        lowBound = 0
+        s = 4
+        value = [4,2]
+        while ( abs (( simpsonNew - simpsonOld ) / simpsonNew ) > epsilon):
+            simpsonOld = simpsonNew
+            w = (highBound - lowBound) / s
+            total = 0.0
+            for i in range(0, s + 1):
+                if i == 0:
+                    total = total + f(lowBound, n)
+                elif i == s:
+                    total = total + f(highBound, n)
+                else:
+                    u = lowBound + (i *  w)
+                    correct = value[i % 2]
+                    total = total + (correct * f(u,n))
+            simpsonNew = w/3 * total
+            s = s * 2
             
-        
+        return simpsonNew
