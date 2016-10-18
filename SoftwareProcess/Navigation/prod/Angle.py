@@ -1,95 +1,105 @@
-from string import strip
-from idlelib.configDialog import is_int
-from lib2to3.fixer_util import String
 class Angle():
     
     def __init__(self):
         #self.angle = ...       set to 0 degrees 0 minutes
-        self.ang = '0d0'
-        return self.ang
-        
-        pass
-    
-    def setDegrees(self, degrees):
-        if degrees == None:
-       
-            degrees = 0.0
-            return degrees
-       
-        else:
-            try:
+        self.angle = '0d0'
+           
+    def setDegrees(self,degrees = 0.0):
+                if(isinstance(degrees, float)):
+                    pass
+                    
+                elif(isinstance(degrees, int)):
+                    degrees = float(degrees)
+                else:
+                    raise ValueError('Angle.setDegrees:  the value entered for degrees should be an integer or float')
+                    
+                while degrees < 0.0:
+                    degrees += 360
+                    
+              
+                self.angle = degrees % 360
+                self.angle = abs(self.angle)
+                return self.angle
 
-                #degrees = input("Enter your data:" )
-                degrees = degrees % 360
-                
-                return degrees
-        
-            except ValueError as v:
-                print v
-        
-        pass
     
     def setDegreesAndMinutes(self,angleString):
-        
-        
+        fname = "Angle.setDegreesAndMinutes: "
         try:
-            degree,minute = angleString.split("d")
+            if angleString[0] == "d":
+                raise ValueError(fname + "Degree not Entered")
             
+            elif (not(isinstance(angleString, str))):
+                raise ValueError(fname + "Degree not Entered")
             
-            if minute > 0:
-                degree = int(degree) 
-                minute = float(minute) 
-                minute = round(minute,1)
-                angleString = degree+'d'+minute
-                pass
+            elif angleString.find("d") == False:
+                raise ValueError(fname + "Degree not Entered")
+            
             else:
-                print "fail"
-            return angleString
-            
-        except ValueError as b:
-            print (b), '"Enter Degree in integer Value and Minutes in Integer or Float values."'
-            
-      
-        pass
-    
-    def add(self, angle):
-        
-        try:
-            degree,minute = angle.split("d")
-            
-            
-            if minute > 0:
-                degree = int(degree)
-                degree = degree % 360 
-                minute = float(minute) 
-                minute = round(minute,1)
-                angle = degree+'d'+minute
-                self.Angle = Angle + angle
-                degree,minute = self.Angle.split("d")
-                degree = degree % 360
-                if minute == 30:
-                    self.Angle = degree + 0.5
-                elif minute == 60:
-                    self.Angle = degree + 1
+                print "executed"
+                degreenminute = angleString.split("d")
+                self.degree = (degreenminute[0])
+                self.minute = float(degreenminute[1])
+                
+                if self.degree == int(self.degree):
+                    raise ValueError(fname + "Degree not Entered")
+                self.degree = int(self.degree)
+                
+                if self.minute != round(self.minute,1):
+                    raise ValueError('Angle.setDegreesAndMinutes:')
+                    self.minute = round(self.minute, 1)
+                if self.degree < 0:
+                    self.angle = self.degree - self.minute / 60
                 else:
-                    self.Angle = degree
-                return self.Angle
+                    self.angle = self.degree + self.minute / 60
+                self.angle = self.angle % 360
+                while self.angle < 0:
+                    self.angle += 360
+            return self.angle  
             
+        except AssertionError as e:
+            print (e)
+
             
+    def add(self, angle):
+         
+        try:
+            degreenminute = self.angle.split("d")
+            self.degree = int(degreenminute[0])
+            self.minute = float(degreenminute[1])
+             
+            if self.minute > 0:
+                self.degree = int(self.degree)
+                self.degree = self.degree % 360 
+                self.minute = float(self.minute) 
+                self.minute = round(self.minute,1)
+                angle = self.degree+'d'+self.minute
+                self.Angle = Angle + angle
+                degreenminute = self.Angle.split("d")
+                self.degree = int(degreenminute[0])
+                self.minute = float(degreenminute[1])
+                self.degree = self.degree % 360
+                if self.minute == 30:
+                    self.angle = self.degree + 0.5
+                elif self.minute == 60:
+                    self.angle = self.degree + 1
+                else:
+                    self.angle = self.degree
+                return self.angle
+             
+             
             else:
                 print "fail"
-            
+             
         except ValueError as b:
             print (b), '"Enter Degree in integer Value and Minutes in Integer or Float values."'
-        
-        pass
-    
+ 
+     
     def subtract(self, angle):
-
+ 
         try:
-            degree,minute = angle.split("d")
-            
-            
+            degreenminute = angle.split("d")
+             
+             
             if minute > 0:
                 degree = int(degree) 
                 degree = degree % 360
@@ -108,27 +118,24 @@ class Angle():
                 return self.Angle
             else:
                 print "fail"
-            
+             
         except ValueError as b:
             print (b), '"Enter Degree in integer Value and Minutes in Integer or Float values."'
-
-
-        pass
-    
+     
     def compare(self, angle):
-        
+         
             try:
                 degree,minute = angle.split("d")
-            
-            
+             
+             
                 if minute > 0:
                     degree = int(degree)
                     degree = degree % 360 
                     minute = float(minute) 
                     minute = round(minute,1)
                     angle = degree+'d'+minute
-                    
-                
+                     
+                 
                 else:
                     print "fail"
                 if self.Angle > angle:
@@ -137,18 +144,15 @@ class Angle():
                     return 0
                 else:
                     return 1
-            
+             
             except ValueError as b:
                 print (b), '"Enter Degree in integer Value and Minutes in Integer or Float values."'
-
-        
-            pass
-    
+     
     def getString(self):
-        
+         
         degree,minute = self.angle.split("d")
-            
-            
+             
+             
         if minute > 0:
             degree = int(degree)
             degree = degree % 360 
@@ -157,34 +161,12 @@ class Angle():
             minute = minute % 60
             self.angle = degree+'d'+minute
             return self.angle
-                    
-                
+                     
+                 
         else:
             print "fail"
-        
-        pass
-    
+     
     def getDegrees(self):
         
-        degree,minute = self.angle.split("d")
-            
-            
-        if minute > 0:
-            degree = int(degree)
-            degree = degree % 360 
-            minute = float(minute) 
-            minute = round(minute,1)
-            minute = minute % 60
-            self.angle = degree+' degrees and  '+minute+' minutes.'
             return self.angle
-                    
-                
-        else:
-            print "fail"
-        
-        pass
-        
-    x = setDegrees( 1 , 550 )
-    x = setDegreesAndMinutes(1,'52d5.656')
-    x = add(56)
         
