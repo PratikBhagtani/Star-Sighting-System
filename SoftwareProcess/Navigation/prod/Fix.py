@@ -1,12 +1,14 @@
-from datetime import time, date
+from datetime import time, date, datetime
 import math
 import Navigation.prod.Angle as Angle
 import os
-import xml.dom.minidom
+from genericpath import isfile
+import re
+from operator import itemgetter, attrgetter
+from xml.dom import minidom
 from time import strftime, gmtime
 from math import sqrt, pi, tan
-from cgi import logfile
-from operator import itemgetter
+
 class Fix:
     
     def __init__(self, logFile="logFile.txt"):
@@ -15,16 +17,15 @@ class Fix:
                 raise ValueError
             if logFile == " ":
                 raise ValueError
-            fileo = open(logFile , 'a')
-            fileo.write("LOG:\t" + strftime("%Y-%m-%d %H:%M:%S-06:00"))
-            fileo.write("Start Of Log \n")
-            fileo.close()
-            self.sightingFile = None
+            myLogFile = open(logFile , 'a')
+            myLogFile.write("LOG:\t" + strftime("%Y-%m-%d %H:%M:%S-06:00"))
+            myLogFile.write("Start Of Log \n")
+            myLogFile.close()
+            self.sightingFileName = None
             self.logFile = logFile
             self.ariesFile = None
         except:
             raise ValueError("Fix.__init__:")
-    
     def setSightingFile(self, sightingFile = None):
         if (not (isinstance(sightingFile, basestring))):
             raise ValueError("Fix.setSightingFile:  ")
@@ -36,22 +37,57 @@ class Fix:
         Tfile.write('LOG:\t' + strftime("%Y-%m-%d %H:%M:%S-06:00", gmtime()))
         Tfile.write(" Sighting file:\t"+os.path.abspath(sightingFile,gmtime()))
         # "Start of Log" + sightingFile)
-        self.sightingFile = sightingFile
+        self.sightingFileName = sightingFile
         Tfile.close()
         
         return sightingFile
     
     
-    def getSightings(self):
+    def getSightings(self,assumedLatitude="0d0.0", assumedLongitude="0d0.0"):
         
-        approximateLatitude = "0d0.0"
-        approximateLongitude = "0d0.0"
-    
-
-        TEfile = xml.dom.minidom.parse(self.sightingFile)
-        rxml = TEfile.documentElement
-        rsightings = rxml.getElementsByTagName("sighting")
-        for index in rsightings:           
+        if(not(isinstance(assumedLatitude, basestring))):
+            raise ValueError("Fix.getSightings:  Invalid assumeLatitude. Must be a string.")
+        assumedLatitudeMatchObject = re.match(r'^([NS])?(-?[0-9]+)d([0-9]+(\.[0-9])?)$', assumedLatitude)
+        if(assumedLatitudeMatchObject == None):
+            raise ValueError("Fix.getSightings:  Invalid assumedLatitude form. Must be of form hxdy.y or (if h is missing) xdy.y.")
+        h = "";
+        xLatitudeValue = int(assumedLatitudeMatchObject.group(2))
+        yLatitudeValue = float(assumedLatitudeMatchObject.group(3))
+        if(assumedLatitudeMatchObject.group(1) == None):            
+            if(xLatitudeValue != 0 or yLatitudeValue != 0.0):
+                raise ValueError("Fix.getSightings:  Invalid assumedLatitude. Must be 0d0.0 if h is missing.")
+        else:
+            h = str(assumedLatitudeMatchObject.group(1))
+        
+        if(h != "" and h != "N" and h != "S"):
+            raise ValueError("Fix.getSightings:  Invalid h. Must be 'N', 'S' or empty string")
+        if(xLatitudeValue < 0 or xLatitudeValue >= 90):
+            raise ValueError("Fix.getSightings:  Invalid x in assumedLatitude. Must be in range 0 <= x < 90")
+        if(yLatitudeValue < 0.0 or yLatitudeValue >= 60.0):
+            raise ValueError("Fix.getSightings:  Invalid y in assumedLatitude. Must be in range 0.0 <= y < 60.0")
+        
+        if(not(isinstance(assumedLongitude, basestring))):
+            raise ValueError("Fix.getSightings:  Invalid assumedLongitude. Must be a string.")
+        assumedLongitudeMatchObject = re.match(r'^(-?[0-9]+)d([0-9]+(\.[0-9])?)$', assumedLongitude)
+        if(assumedLongitudeMatchObject == None):
+            raise ValueError("Fix.getSightings:  Invalid assumedLongitude form. Must be of form xdy.y.")
+        xLongitudeValue = int(assumedLongitudeMatchObject.group(1))
+        yLongitudeValue = float(assumedLongitudeMatchObject.group(2))
+        if(xLongitudeValue < 0 or xLongitudeValue >= 360):
+            raise ValueError("Fix.getSightings:  Invalid x in assumedLongitude. Must be in range 0 <= x < 360")
+        if(yLongitudeValue < 0.0 or yLongitudeValue >= 60.0):
+            raise ValueError("Fix.getSightings:  Invalid y in assumedLongitude. Must be in range 0.0 <= y < 60.0")
+          
+        if(self.sightingFileName == None):
+            raise ValueError("Fix.getSightings:  no sighting file has been set.")
+        if(self.starFile == None):
+            raise ValueError("Fix.getSightings:  Star file not set.")
+        if(self.ariesFile == None):
+            raise ValueError("Fix.getSightings:  Aries file not set.")
+        doc = minidom.parse(self.sightingFileName)
+        sightings = doc.getElementsByTagName("sighting")
+        sightingList = []
+        for index in sightings:           
             if index.getElementsByTagName("body"):
                 try:
                     rbody = index.getElementsByTagName("body")[0].childNodes[0].data
@@ -121,20 +157,200 @@ class Fix:
             adjustedAltitute = robserb + dip + refraction
             adjustedAltitute = round(adjustedAltitute, 2)
             meangle.angle = adjustedAltitute
-            singleSight = [rbody, rdate, rtime, meangle.getString()]
-            col = []
-            col.append(singleSight)
-        col = sorted(col, key = itemgetter(1,2,3))
-        writelog = open(self.logFile,'a')
-        for i in col:
-            (lat,long) = self.pos(str(i[0]),str(i[1]),str(i[2]))
-            writelog.write("\nLOG:\t" + strftime("%Y-%m-%d %H:%M:%S-06:00",gmtime()))
-            writelog.write(":\t"+ i[0] + ":\t"+ i[1] + ":\t"+ i[2] + ":\t"+ i[3]+ ":\t"+ str(lat.getString()))
-        writelog.write("\nLOG:\t" + strftime("%Y-%m-%d %H:%M:%S-06:00",gmtime()))
-        writelog.write(':\nEnd of sighting file '+self.sightingFile)
-        writelog.flush()
-        writelog.close()
+            sighting = [rbody, rdate, rtime, meangle.getString()]
+            sightingList.append(sighting)
+        sightingList = sorted(sightingList, key = itemgetter(1,2,3))
+
+        
+        currentISODate = date.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S%z")
+        
+        sum1 = 0
+        sum2 = 0
+                
+        for sighting in sightingList:
+            geographicPositionLatitude, geographicPositionLongitude = self.__calculateGeographicalPosition(self.starFile, sighting, self.ariesFile)
+            if(geographicPositionLatitude != "" and geographicPositionLongitude != ""):
+                adjustedDistance = self.__calculateAdjustedDistance(geographicPositionLatitude, geographicPositionLongitude, assumedLatitude, assumedLongitude, adjustedAltitute)
+                azimuthAdjustment = self.__calculateAzimuthAdjustment(geographicPositionLatitude, assumedLatitude, adjustedDistance)
+                sum1 = sum1 + (adjustedDistance * math.cos(azimuthAdjustment))
+                sum2 = sum2 + (adjustedDistance * math.sin(azimuthAdjustment))
+                angle = Angle.Angle()
+                angle.setDegrees(azimuthAdjustment)
+                myLogFile = open(self.logFile, "a+") 
+                myLogFile.write("LOG: " + str(sighting.get_current_isodate()) + "-06:00 " + str(sighting.get_body()) + " " + str(sighting.get_the_date()) + " " + str(sighting.get_time()) + " " + sighting.get_angle_string() + " " + 
+                                str(geographicPositionLatitude) + " " + str(geographicPositionLongitude) + " " + assumedLatitude + " " + assumedLongitude + " " + angle.getString() + " " + str(adjustedDistance) + "\n")
+                myLogFile.close()
+        
+        
+        assumedLatitude = assumedLatitude[1:]
+        angle = Angle.Angle()
+        angle.setDegreesAndMinutes(assumedLatitude)
+        assumedLatitudeNumerical = angle.getDegrees()
+        angle1 = Angle.Angle()
+        angle1.setDegreesAndMinutes(assumedLongitude)
+        assumedLongitudeNumerical = angle1.getDegrees()
+        
+        approximateLatitude = assumedLatitudeNumerical + (sum1 / 60)
+        approximateLongitude = assumedLongitudeNumerical + (sum2 / 60)
+        approximateLongitudeAngle = Angle.Angle()
+        approximateLongitudeAngle.setDegrees(approximateLongitude)
+        approximateLatitudeAngle = Angle.Angle()
+        approximateLatitudeAngle.setDegrees(approximateLatitude)
+                
+        
+        myLogFile = open(self.logFile, "a+")  
+        myLogFile.write("LOG: " + currentISODate + "-06:00 Approximate latitude:    " + h + approximateLatitudeAngle.getString() + "    Approximate longitude:    " + approximateLongitudeAngle.getString() + "\n")  
+        myLogFile.close()    
+        
         return (approximateLatitude, approximateLongitude)
+
+    
+
+        
+        
+    def __calculateAdjustedDistance(self, geographicPositionLatitude, geographicPositionLongitude, assumedLatitude, assumedLongitude, adjustedAltitude):
+        assumedLatitude = assumedLatitude[1:]
+        assumedLatitudeAngle = Angle.Angle()
+        assumedLatitudeAngle.setDegreesAndMinutes(assumedLatitude)
+        
+        assumedLatitudeNumerical = assumedLatitudeAngle.getDegrees()
+        assumedLongitudeAngle = Angle.Angle()
+        assumedLongitudeAngle.setDegreesAndMinutes(assumedLongitude)        
+        assumedLongitudeNumerical = assumedLongitudeAngle.getDegrees()
+        
+        geographicPositionLongitudeAngle = Angle.Angle()
+        geographicPositionLongitudeAngle.setDegreesAndMinutes(geographicPositionLongitude)        
+        geographicPositionLongitudeNumerical = geographicPositionLongitudeAngle.getDegrees()
+        
+        geographicPositionLatitudeAngle = Angle.Angle()
+        geographicPositionLatitudeAngle.setDegreesAndMinutes(geographicPositionLatitude)
+        geographicPositionLatitdueNumerical = geographicPositionLatitudeAngle.getDegrees()
+        
+        LHA = geographicPositionLongitudeAngle.subtract(assumedLongitudeAngle)
+        
+        correctedAltitude = math.degrees(math.asin((math.sin(math.radians(geographicPositionLatitdueNumerical)) * math.sin(math.radians(assumedLatitudeNumerical)))
+                                      + (math.cos(math.radians(geographicPositionLatitdueNumerical)) * math.cos(math.radians(assumedLatitudeNumerical)) * math.cos(math.radians(LHA)))))
+        
+        angle1 = Angle.Angle()
+        angle1.setDegrees(adjustedAltitude)
+        
+        angle2 = Angle.Angle()
+        angle2.setDegrees(correctedAltitude)
+        
+        
+        adjustedDistance = angle1.subtract(angle2)
+        return round(adjustedDistance, 2)
+    
+    def __calculateAzimuthAdjustment(self, geographicPositionLatitude, assumedLatitude, adjustedDistance):
+        assumedLatitude = assumedLatitude[1:]
+        angle = Angle.Angle()
+        angle.setDegreesAndMinutes(assumedLatitude)
+        assumedLatitudeNumerical = angle.getDegrees()
+        angle2 = Angle.Angle()
+        angle2.setDegreesAndMinutes(geographicPositionLatitude)
+        geographicPositionLatitdueNumerical = angle2.getDegrees()
+        azimuthAdjustment = math.acos((math.sin(math.radians(float(geographicPositionLatitdueNumerical))) - math.sin(math.radians(float(assumedLatitudeNumerical))) - math.sin(math.radians(float(adjustedDistance))))
+                                      / math.cos(math.radians(float(assumedLatitudeNumerical))) * math.cos(math.radians(float(adjustedDistance))))
+       
+        return azimuthAdjustment
+    
+    def __calculateGeographicalPosition(self, starFileName, sighting, ariesFileName):
+        declination = ""
+        sideHourAngle = Angle.Angle()
+        greenwichHourAngle1 = ""
+        greenwichHourAngle2 = ""
+        hours, minutes, seconds = sighting.get_time().split(':')
+        with open(starFileName, "r") as f:
+            for line in f:
+                body, starDate, longitude, latitude = line.split()                
+                if(body == sighting.get_body()):
+                    declination = latitude
+                    sideHourAngle.setDegreesAndMinutes(longitude)
+                    break
+                    
+        with open(ariesFileName, "r") as f:
+            foundGreenwichHourAngle = False
+            for line in f:
+                the_date, hour, angle = line.split()
+                dateArray1 = str(the_date).split('/')
+                dateArray2 = sighting.get_the_date().split('-')
+                temp = dateArray2[0]
+                dateArray2[0] = dateArray2[2]
+                dateArray2[2] = temp[2:]
+                temp2 = dateArray2[0]
+                dateArray2[0] = dateArray2[1]
+                dateArray2[1] = temp2
+                dateObj1 = date.date(int(dateArray1[2]), int(dateArray1[0]), int(dateArray1[1]))
+                dateObj2 = date.date(int(dateArray2[2]), int(dateArray2[0]), int(dateArray2[1]))
+                
+                if(foundGreenwichHourAngle == True):
+                    greenwichHourAngle2 = angle
+                    break                
+                if(dateObj1 == dateObj2 and int(hours) == int(hour)):
+                    greenwichHourAngle1 = angle
+                    foundGreenwichHourAngle = True
+        if(foundGreenwichHourAngle == True and declination != ""):
+            
+            s = (int(minutes) * 60) + int(seconds)
+            angle1 = Angle.Angle()
+            angle2 = Angle.Angle()
+            angle1.setDegreesAndMinutes(greenwichHourAngle1)
+            angle2.setDegreesAndMinutes(greenwichHourAngle2)
+            degrees = abs(angle2.subtract(angle1))
+            angle3 = Angle.Angle()
+            angle3.setDegrees(degrees * (float(s)/3600))
+            degrees2 = angle3.add(angle1)
+            greenwichHourAngle = Angle.Angle()
+            greenwichHourAngle.setDegrees(degrees2)
+            
+            degreesLongitude = greenwichHourAngle.add(sideHourAngle)
+            greenwichHourAngleObservation = Angle.Angle()
+            greenwichHourAngleObservation.setDegrees(degreesLongitude)
+            return (declination, greenwichHourAngleObservation.getString())
+            
+        else:
+            raise ValueError ("Fix.Pos(), Error")
+            
+        return ("", "")
+            
+            
+    def __setSightingAttributes(self, sightings, index):
+        height = 0
+        temperature = 0
+        pressure = 0 
+        horizon = ""
+        body = sightings[index].getElementsByTagName("body")[0].childNodes[0].data
+        theDate = sightings[index].getElementsByTagName("date")[0].childNodes[0].data
+        time = sightings[index].getElementsByTagName("time")[0].childNodes[0].data
+        observation = sightings[index].getElementsByTagName("observation")[0].childNodes[0].data
+        
+        heightElements = sightings[index].getElementsByTagName("height")
+        if(len(heightElements) == 0):
+            height = 0.0
+        else:
+            height = heightElements[0].childNodes[0].data
+            
+        temperatureElements = sightings[index].getElementsByTagName("temperature")
+        if(len(temperatureElements) == 0):
+            temperature = 72
+        else:
+            temperature = temperatureElements[0].childNodes[0].data
+            
+        pressureElements = sightings[index].getElementsByTagName("pressure")
+        if(len(pressureElements) == 0):
+            pressure = 1010 
+        else:
+            pressure = pressureElements[0].childNodes[0].data 
+                   
+        horizonElements = sightings[index].getElementsByTagName("horizon")
+        if(len(horizonElements) == 0):
+            horizon = "Natural"
+        else:
+            horizon = horizonElements[0].childNodes[0].data
+            
+        return (height, temperature, pressure, horizon, body, theDate, time, observation)
+        
+        
     
     def setAriesFile(self,ariesFile):
         try:
@@ -152,8 +368,6 @@ class Fix:
               
         except:
             raise ValueError('Fix.setAriesFile:  ')    
-        
-    
     def setStarFile(self,starFile):
         try:
             if not(starFile.find('.txt')>0):
@@ -169,76 +383,4 @@ class Fix:
             return os.path.abspath(starFile)
         except:
             raise ValueError('Fix.setStarFile: ')
-       
-    def pos(self, body=None, observationDate = None, observationTime = None):
         
-        if(observationTime == None):
-            raise ValueError('Fix.getGeographicPosition: hour missing')
-        if(body==None):
-            raise ValueError('Fix.getGeographicPosition: body missing')
-        if(observationDate==None):
-            raise ValueError('File.getPositions: date missing')
-        writefile = open('starFile.txt','a') 
-        starFile = self.starFile
-        ariesFile = self.ariesFile
-        tempArr = str(observationTime).split(':')
-        observationHour = int(tempArr[0])
-        s = (int(tempArr[1])*60) +int(tempArr[2])
-        PosLat = Angle.Angle()
-        PosLong = Angle.Angle()
-        ghaAries1 = ''
-        ghaAries2 = ''
-        tempArray = observationDate.split('-')
-        previousStarObservation = None
-        shaStar = None
-        observationYear = int(tempArray[0])%2000
-        observationMonth = int(tempArray[1])
-        observationDay = int(tempArray[2])
-        writefile = open('starFile.txt','a')
-        writefile2 = open(starFile,'r')
-        starObservations = writefile2.readlines()
-        for Observation in starObservations:
-            temp = Observation.split('\t')
-                
-            bodyInStarFile = temp[0]
-                
-            if(body==bodyInStarFile):
-                    
-                date = temp[1].split('/')
-
-                if(observationYear <= int(date[2]) and observationMonth <= int(date[0]) and observationDay <= int(date[1]) ):
-                    previousStarObservation = temp
-        PosLat.setDegreesAndMinutes(previousStarObservation[3])
-        shaStar = previousStarObservation[2]
-        shaStarAngle = Angle.Angle()
-        shaStarAngle.setDegreesAndMinutes(shaStar)
-        writefile1 = open(ariesFile,'r')
-        ariesObservations = writefile1.readlines()    
-        for Observation in ariesObservations:
-            temp = Observation.split('\t')
-            tempDate = str(observationMonth).zfill(2)+'/'+str(observationDay).zfill(2)+'/'+str(observationYear)
-            if(tempDate == temp[0]):
-                if(observationHour==23):
-                    if(int(temp[1])==0):
-                        ghaAries2 = temp[2]
-                        writefile.write("\n gha2:"+ghaAries2)        
-                if( observationHour == int(temp[1])):
-                    ghaAries1 = temp[2]
-                    writefile.write("\n gha1:"+ghaAries1)
-                if(observationHour + 1 == int(temp[1])):
-                    ghaAries2 = temp[2]
-                    writefile.write("\n gha2:"+ghaAries2)    
-        ghaAriesAngle1 = Angle.Angle()
-        writefile.write('\n gha:'+str(ghaAries1))
-        ghaAriesAngle1.setDegreesAndMinutes(ghaAries1)
-        temp1 = float(ghaAriesAngle1.angle)
-        ghaAriesAngle2 = Angle.Angle()
-        ghaAriesAngle2.setDegreesAndMinutes(ghaAries2)
-        temp2 = float(ghaAriesAngle2.angle)
-        ghaAriesAngle = Angle.Angle()
-        tempAngle = abs(temp2-temp1)
-        tempAngle = float(tempAngle)*s/3600 
-        ghaAriesAngle.setDegrees(tempAngle) 
-        ghaAriesAngle.add(ghaAriesAngle1)
-        PosLong.setDegrees(round(float(ghaAriesAngle.add(shaStarAngle)) % 360,1))               
-        return (PosLat,PosLong)
