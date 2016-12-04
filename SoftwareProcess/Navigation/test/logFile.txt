@@ -1,0 +1,402 @@
+LOG: 2016-12-03 03:43:54-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:08-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:08-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:08-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:08-06:00LOG: 2016-12-03 03:44:08-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:08-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:09-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:09-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:09-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:09-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:44:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:09-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:44:09-06:00LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:44:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:44:09-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:12-06:00LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:12-06:00LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:12-06:00LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:12-06:00LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:12-06:00LOG: 2016-12-03 03:45:12-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:12-06:00LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:45:13-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:13-06:00LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 09:45:13-06:00LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:45:13-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:45:13-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:06-06:00LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:06-06:00LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:06-06:00LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:06-06:00LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:06-06:00LOG: 2016-12-03 03:50:06-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:06-06:00LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:50:07-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:07-06:00LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 09:50:07-06:00LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:50:07-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:50:07-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_GenericValidStarSightingFile.xml
+
+LOG: 2016-12-03 03:52:25-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txt
+LOG: 2016-12-03 03:52:25-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:25-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidWithMixedIndentation.xml
+
+LOG: 2016-12-03 03:52:25-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:52:25-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:52:25-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:25-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:52:25-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:52:26-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:52:26-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:26-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:26-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:26-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:26-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:26-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:52:26-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:52:26-06:00 Log File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:36-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:36-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:36-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:36-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_GenericValidStarSightingFile.xml
+
+LOG: 2016-12-03 03:56:36-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txt
+LOG: 2016-12-03 03:56:36-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	16-12-03 03:56:36-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:36-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidWithMixedIndentation.xml
+
+LOG: 2016-12-03 03:56:36-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:56:36-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:56:37-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:37-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:56:37-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG: 2016-12-03 03:56:37-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:56:37-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+
+LOG: 2016-12-03 03:56:37-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	16-12-03 03:56:37-06:00	Log file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\logFile.txt
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG: 2016-12-03 03:57:47-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG: 2016-12-03 03:57:47-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG: 2016-12-03 03:57:47-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG:	2016-12-03 03:57:47-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG: 2016-12-03 03:57:48-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_GenericValidStarSightingFile.xml
+
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txt
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG: 2016-12-03 03:57:48-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidWithMixedIndentation.xml
+
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG: 2016-12-03 03:57:48-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG: 2016-12-03 03:57:48-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+
+LOG: 2016-12-03 03:57:48-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:57:48-06:00Start Of Log 
+LOG:	2016-12-03 03:58:08-06:00Start Of Log 
+LOG:	2016-12-03 03:58:08-06:00Start Of Log 
+LOG:	2016-12-03 03:58:08-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_GenericValidStarSightingFile.xml
+
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txt
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidWithMixedIndentation.xml
+
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG: 2016-12-03 03:58:09-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+
+LOG: 2016-12-03 03:58:09-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:58:09-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG: 2016-12-03 03:59:53-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG: 2016-12-03 03:59:53-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG: 2016-12-03 03:59:53-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_200_ValidStarSightingFile.xml
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG: 2016-12-03 03:59:53-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_GenericValidStarSightingFile.xml
+
+LOG: 2016-12-03 03:59:53-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txt
+LOG: 2016-12-03 03:59:53-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:59:53-06:00Start Of Log 
+LOG: 2016-12-03 03:59:53-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidWithMixedIndentation.xml
+
+LOG: 2016-12-03 03:59:53-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:59:53-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txt
+LOG: 2016-12-03 03:59:54-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG: 2016-12-03 03:59:54-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:59:54-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG: 2016-12-03 03:59:54-06:00 Sighting File: C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA02_300_ValidOneStarSighting.xml
+
+LOG: 2016-12-03 03:59:54-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Aries file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Aries.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+
+LOG: 2016-12-03 03:59:54-06:00 Star file:	C:\Users\pRaTiK BhAgTaNi\git\SoftwareProcess\SoftwareProcess\Navigation\test\CA03_Valid_Stars.txtLOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
+LOG:	2016-12-03 03:59:54-06:00Start Of Log 
